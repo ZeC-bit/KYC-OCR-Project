@@ -72,7 +72,7 @@ pyramid + feature fusion + single prediction
 * Combining words to generate Sentence
 * Supplement spelling check, etc. (ex. oat -> cat)
 
-
+![스크린샷 2023-10-16 오전 1 05 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/12f95f55-4bf1-4ba1-841a-c91e78e84359)
 
 
 ## 5. Open Source OCR Comparison
@@ -100,9 +100,12 @@ pyramid + feature fusion + single prediction
 * OCR in regular document fails because there is no text detection part
 * Additional learning forms, such as providing a learning data generator
 
-![스크린샷 2023-10-16 오전 1 05 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/12f95f55-4bf1-4ba1-841a-c91e78e84359)
 
-
+## 6. Conclusion
+* Easy-OCR is lightweight model which is giving a good performance for receipt or PDF conversion. 
+* It is giving more accurate results with organized texts like PDF files, receipts, bills. Easy OCR also performs well on noisy images.
+**Reason for using EasyOCR than Tesseract OCR**
+* The result shows that EasyOCR has resulted in more than 95% accuracy for predicting the number plate when compared to Tesseract OCR which has only resulted in 90% accuracy. Hence, * * EasyOCR outperforms Tesseract OCR as it uses deep learning approach for object recognition and it is efficient in real time prediction.
 
 
 
