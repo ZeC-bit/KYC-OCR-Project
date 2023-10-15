@@ -32,15 +32,14 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 * FeatureMap extraction with Convolution
 * rotation angle regression
 
-![스크린샷 2023-10-16 오전 1 05 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/12f95f55-4bf1-4ba1-841a-c91e78e84359)
-
+![스크린샷 2023-10-16 오전 1 05 10](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/28679356-6e04-48a4-b9eb-0dcfc448bef3)
 
 * Segmentation of text or not text, known as classification
 
 * After the detection, print out the ROIs for TextBox and proceed with the Crop operation
 
-2-1) three types of detection CNN
-type1 pyramid + multi prediction (ssd 같은)
+**2.1 three types of detection CNN**
+type1 pyramid + multi prediction (ssd)
 pyramid + feature fusion + multi-prediction
 pyramid + feature fusion + single prediction
 
@@ -52,16 +51,24 @@ pyramid + feature fusion + single prediction
 * Modules exist separately for each language of course / Can classify cropped textboxes by language
 
 
-
+**3.1 Convolution Layer Model**
 * It consists of three operations: convolutional, normalization, and maxpool
 * Similar to Phase 2, shared CNNs are also available
 * Split CNN images vertically, with multiple features for each letter
-* Split features are also internally referred to as alignment.
+* Split features are also internally referred to as alignment
 
-![스크린샷 2023-10-16 오전 1 05 10](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/28679356-6e04-48a4-b9eb-0dcfc448bef3)
+
+**3.2 Recurrent Layer Model**
+
+* These alignments are learned through RNN
+* Decoder exists to put the letters back together
+* For decoder, CTC Loss(Connectionist temporal classification loss)
+* Attachment is also available for decoder
 ![스크린샷 2023-10-16 오전 1 05 21](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/96f8f016-ad8a-48ef-81fc-303c205e6233)
 
 
+
+![스크린샷 2023-10-16 오전 1 05 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/12f95f55-4bf1-4ba1-841a-c91e78e84359)
 
 
 
