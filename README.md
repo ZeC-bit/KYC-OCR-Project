@@ -15,7 +15,6 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 
 ![스크린샷 2023-10-16 오전 12 46 45](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/d0015666-0e2c-41fb-8c88-f8b9fa2cb07c)
 
-**Accuracy, Recall Value of RNN** 
 
 ## 1. Preprocessing
 
