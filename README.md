@@ -38,9 +38,9 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 * After the detection, print out the ROIs for TextBox and proceed with the Crop operation
 
 **2.1 three types of detection CNN**
-type1 pyramid + multi prediction (ssd)
-pyramid + feature fusion + multi-prediction
-pyramid + feature fusion + single prediction
+* type1 pyramid + multi prediction (ssd)
+* pyramid + feature fusion + multi-prediction
+* pyramid + feature fusion + single prediction
 
 
 ## 3. Text Recognition
@@ -102,7 +102,8 @@ pyramid + feature fusion + single prediction
 
 ## 6. Conclusion
 * Easy-OCR is lightweight model which is giving a good performance for receipt or PDF conversion. 
-* It is giving more accurate results with organized texts like PDF files, receipts, bills. Easy OCR also performs well on noisy images.
+* It is giving more accurate results with organized texts like PDF files, receipts, bills. Easy OCR also performs well on noisy images.  
+
 **Reason for using EasyOCR than Tesseract OCR**
 * The result shows that EasyOCR has resulted in more than 95% accuracy for predicting the number plate when compared to Tesseract OCR which has only resulted in 90% accuracy. Hence, * * EasyOCR outperforms Tesseract OCR as it uses deep learning approach for object recognition and it is efficient in real time prediction.
 
