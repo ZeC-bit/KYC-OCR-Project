@@ -1,6 +1,6 @@
 # KYC-OCR-Project
 
-OCR is Optical Character Recognition which is deep learning Framework to recognize the optical characters.
+OCR is Optical Character Recognition which is deep learning framework to recognize the optical characters.
 
 
 
@@ -22,4 +22,24 @@ OCR is Optical Character Recognition which is deep learning Framework to recogni
 * Grayscale conversion
 * Histogram normalization
 * Redistribute the distribution of brightness to maximize contrast for clearer images
+
+
+## 2. Text Detection
+
+
+* Select text areas from images to reduce unnecessary calculations
+* FeatureMap extraction with Convolution
+* rotation angle regression
+
+
+
+* Segmentation of text or not text, known as classification
+
+* After the detection, print out the ROIs for TextBox and proceed with the Crop operation
+
+
+
+
+
+
 
