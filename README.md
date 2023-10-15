@@ -66,7 +66,39 @@ pyramid + feature fusion + single prediction
 * Attachment is also available for decoder
 ![스크린샷 2023-10-16 오전 1 05 21](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/96f8f016-ad8a-48ef-81fc-303c205e6233)
 
+## 4. Post-processing
 
+* Throwing out low quality words
+* Combining words to generate Sentence
+* Supplement spelling check, etc. (ex. oat -> cat)
+
+
+
+
+## 5. Open Source OCR Comparison
+
+**Tesseract**
+* Source Repository: https://github.com/tesseract-ocr/tesseract
+* Open Source OCR tools with a relatively long history
+* Google's developers maintain it after HP started developing it and turned it into an open source
+* C-based development and multiple wrapper libraries are also abundant / offers a variety of options
+* Weakness includes slow rate, GPU not supported
+
+
+**EasyOCR**
+* Source Repository: https://github.com/JaidedAI/EasyOCR
+* Better accuracy than Tesseract
+* Improved performance (speed) because it supports GPU operations
+* Apache 2.0 for commercial use
+* Ease of additional learning and enable additional font learning
+* Using a text detection tool called CRAFT created and released by Naver
+
+
+**ocr_kor**
+* Source Repository: https://github.com/parksunwoo/ocr_kor
+* OCR tool that learned Deep-text-recognition-benchmark in Korean, which was researched and released by Naver
+* OCR in regular document fails because there is no text detection part
+* Additional learning forms, such as providing a learning data generator
 
 ![스크린샷 2023-10-16 오전 1 05 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/12f95f55-4bf1-4ba1-841a-c91e78e84359)
 
