@@ -12,7 +12,7 @@ OCR is Optical Character Recognition which is deep learning Framework to recogni
 + Step 3 (Text recognition)  
 + Step 4 (Post-processing)  
 
-![alt text](http://url/to/img.png)
+
 
 **Accuracy, Recall Value of RNN** 
 
