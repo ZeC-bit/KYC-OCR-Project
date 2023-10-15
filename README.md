@@ -48,7 +48,7 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 
 
 ## 3. Text Recognition
-
+ 
 * Need to recognize what letters each image contains after cropping the image
 * Composed of Convolution layer Model, and Recurrent layer Model
 * Modules exist separately for each language of course / Can classify cropped textboxes by language
