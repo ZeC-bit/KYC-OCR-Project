@@ -40,6 +40,10 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 
 * After the detection, print out the ROIs for TextBox and proceed with the Crop operation
 
+![스크린샷 2023-10-16 오전 1 35 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/8e667d04-4af0-46d6-b01b-31b7e0882b08)
+![스크린샷 2023-10-16 오전 1 35 48](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/8946e06e-ea18-4bc6-8db0-a565ea773f6a)
+
+
 
 **2.1 three types of detection CNN**
 * type1 pyramid + multi prediction (ssd)
