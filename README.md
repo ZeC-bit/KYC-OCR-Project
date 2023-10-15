@@ -23,6 +23,9 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 * Histogram normalization
 * Redistribute the distribution of brightness to maximize contrast for clearer images
 
+![스크린샷 2023-10-16 오전 1 27 18](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/fcdc7ac8-879b-4da6-b7fc-bb0b922c4a9c)
+![스크린샷 2023-10-16 오전 1 27 25](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/f333c070-5ecb-4fda-ac4e-03e5ebd4e25b)
+
 
 ## 2. Text Detection
 
@@ -37,6 +40,7 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 
 * After the detection, print out the ROIs for TextBox and proceed with the Crop operation
 
+
 **2.1 three types of detection CNN**
 * type1 pyramid + multi prediction (ssd)
 * pyramid + feature fusion + multi-prediction
@@ -48,6 +52,9 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 * Need to recognize what letters each image contains after cropping the image
 * Composed of Convolution layer Model, and Recurrent layer Model
 * Modules exist separately for each language of course / Can classify cropped textboxes by language
+
+![스크린샷 2023-10-15 오전 1 30 33](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/9b49a850-8831-47ff-a99a-7bbffa949dd8)
+![스크린샷 2023-10-15 오전 1 30 43](https://github.com/ZeC-bit/KYC-OCR-Project/assets/74304944/55afe943-7da8-4978-b9a8-07c904987c04)
 
 
 **3.1 Convolution Layer Model**
