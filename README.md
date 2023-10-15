@@ -1,6 +1,6 @@
 # KYC-OCR-Project
 
-OCR is Optical Character Recognition which is deep learning framework to recognize the optical characters.
+OCR is Optical Character Recognition which is deep learning framework to recognize the optical characters from image.
 
 
 
