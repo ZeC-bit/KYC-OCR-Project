@@ -6,4 +6,4 @@ OCR is Optical Character Recognition which is deep learning Framework to recogni
 
 
 
-# KYC-OCR-Project
+## 4 Process of OCR 
