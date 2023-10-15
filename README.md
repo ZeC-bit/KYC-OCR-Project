@@ -4,7 +4,7 @@ OCR is Optical Character Recognition which is deep learning framework to recogni
 
 
 
-
+ 
 ## 4 Process of OCR 
  
 + Step 1 (Pre-processing)  
